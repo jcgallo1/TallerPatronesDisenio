@@ -9,6 +9,11 @@ package Strategy;
  *
  * @author User
  */
-public class DistribucionFluvial {
+public class DistribucionFluvial implements DistributionStrategy{
+
+    @Override
+    public void metodoDeDistribucion() {
+        //metodo de ditribucion por medio fluvial 
+    }
     
 }

@@ -10,5 +10,6 @@ package Iterator;
  * @author User
  */
 public interface IterableCollection  {
+    //crea un iterador 
     Iterator createIterator();
 }

@@ -11,6 +11,7 @@ package Strategy;
  */
 public interface DistributionStrategy {
     
-    
+    //metodo para aplicar estrategias de distribucion 
     void metodoDeDistribucion();
+    
 }

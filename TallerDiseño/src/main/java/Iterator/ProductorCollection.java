@@ -12,8 +12,9 @@ package Iterator;
 public class ProductorCollection implements IterableCollection{
 
     @Override
+    // Crea un nuevo iterator
     public Iterator createIterator() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet.");
     }
     
 }

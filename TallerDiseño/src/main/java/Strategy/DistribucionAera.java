@@ -9,6 +9,11 @@ package Strategy;
  *
  * @author User
  */
-public class DistribucionAera {
+public class DistribucionAera implements DistributionStrategy {
+
+    @Override
+    public void metodoDeDistribucion() {
+        //metodo de ditribucion por medio aereo 
+    }
     
 }

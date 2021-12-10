@@ -9,6 +9,11 @@ package Strategy;
  *
  * @author User
  */
-public class DistribucionCiclista {
+public class DistribucionCiclista implements DistributionStrategy{
+
+    @Override
+    public void metodoDeDistribucion() {
+        //metodo de ditribucion por medio Ciclista
+    }
     
 }

@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Iterator;
+package ChainOfResponsability;
 
 /**
  *
  * @author User
  */
-public interface Iterator {
-    //Obtiene el siguiente objeto a iterar
-    void getNext();
-    //valida que es el siguiente objeto 
-    boolean hasNext();
+public class MiembroTecnicoHandler {
+    
 }

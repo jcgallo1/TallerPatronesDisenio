@@ -3,22 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Strategy;
+package ChainOfResponsability;
 
 /**
  *
  * @author User
  */
-public class DistribucionFerrea implements DistributionStrategy{
+public class JefeInventarioHandler extends BaseHandler{
 
     @Override
-    public void metodoDeDistribucion() {
-        //metodo de ditribucion por medio aereo 
+    public void setNext(Handler h) {
+        super.setNext(h); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
-    
-    
-        
     
 }

@@ -10,5 +10,17 @@ package Strategy;
  * @author User
  */
 public class Distribucion {
+    private DistributionStrategy estrategia;
     
+    
+    
+    public DistributionStrategy setEstrategia(){
+        //Aplica una estrategia 
+        return null;
+        
+    }
+    
+    public void distribuir(){
+        //distribuye 
+    }
 }
